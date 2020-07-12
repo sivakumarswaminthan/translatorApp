@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <!-- fill stroke color
+        <stroke
+            android:width="1dip"
+            android:color="#F99E84" />
+            -->
+        <!-- gradient color   -->
+
+        <gradient
+            android:angle="45"
+            android:endColor="#F16385"
+            android:centerColor="#F57F85"
+            android:startColor="#F99E84" />
+
+
+</shape>

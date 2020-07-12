@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wwalks.truediplomat.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainLayout"
+        android:paddingTop="5dip"
+        android:background="@layout/gradient"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/topLayout"
+            android:layout_marginTop="10dip"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/backButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/back_light"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginBottom="15dip"/>
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="53dp"
+                android:text="My Conversation"
+                android:textColor="@color/opaced_white"
+                android:textSize="23sp" />
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/my_progressBar1"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainLayout"
+        android:visibility="gone"
+        android:layout_marginTop="-6dip"
+        android:indeterminate="true"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_progressBar1">
+
+        <RelativeLayout
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:id="@+id/leftPart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true">
+
+
+
+                <TextView
+                    android:id="@+id/fromText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginTop="10dip"
+                    android:textColor="@color/greyish"
+                    android:text="From"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/fromValue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/fromText1"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginTop="10dip"
+                    android:textColor="#000000"
+                    android:text="English"
+                    android:textStyle="normal" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/rightPart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dip">
+
+
+
+                <TextView
+                    android:id="@+id/toText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginTop="10dip"
+                    android:textColor="@color/greyish"
+                    android:text="To"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/toValue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/toText1"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginTop="10dip"
+                    android:textColor="#000000"
+                    android:text="Tamil"
+                    android:textStyle="normal" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/conversedList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="20dip"
+            android:layout_below="@+id/topBar"
+            android:divider="@color/transparent"
+            android:dividerHeight="0dip"
+            android:transcriptMode="alwaysScroll"
+            android:stackFromBottom="true"
+            android:layout_above="@+id/bottomBar"></ListView>
+
+
+
+        <RelativeLayout
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp">
+
+
+            <LinearLayout
+                android:id="@+id/testerBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/language1Layout"
+                        android:layout_gravity="center">
+
+
+
+                        <RelativeLayout
+                            android:id="@+id/lang1Layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_centerHorizontal="true"
+                            android:background="@mipmap/redbutton">
+
+                            <ImageButton
+                                android:id="@+id/btnLanguage1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@mipmap/mic" />
+
+                        </RelativeLayout>
+
+
+
+                        <TextView
+                            android:id="@+id/language1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Speak"
+                            android:singleLine="true"
+                            android:layout_below="@+id/lang1Layout"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/greyish"
+                            android:textSize="15dp"
+                            android:textStyle="normal" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/language2Layout"
+                        android:layout_gravity="center">
+
+
+                        <RelativeLayout
+                            android:id="@+id/lang2Layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/greenbutton">
+
+                            <ImageButton
+                                android:id="@+id/btnLanguage2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@mipmap/mic" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/language2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:text="Listen"
+                            android:layout_below="@+id/lang2Layout"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/greyish"
+                            android:textSize="15dp"
+                            android:textStyle="normal" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#F2F2F2</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <!-- <color name="colorPrimaryDark">#303F9F</color> -->
+    <color name="colorAccent">#FF4081</color>
+    <color name="statusBar">#F99E84</color>
+    <color name="custom_tab_opaque_white">#66FFFFFF</color>
+
+    <color name="gradient_top">#F99E84</color>
+    <color name="gradient_bottom">#F16385</color>
+    <color name="transparent">#0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_grey">#BEBEBE</color>
+    <color name="text_red">#F37185</color>
+    <color name="text_yellow">#FBD609</color>
+    <color name="peach_mid">#80F57F85</color>
+    <color name="opaced_white">#CCFFFFFF</color>
+    <color name="green_border">#38EBA5</color>
+    <color name="major_text_grey">#616161</color>
+
+
+    <!--dailog-->
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="bakers_blue">#2d83a3</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+
+    <color name="close_red">#E03146</color>
+
+    <color name="greyish">#242424</color>
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="iltogreyish">#fff2f1f2</color>
+
+    <color name="lightgrey">#525f6f</color>
+
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip">
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:textColor="#242424"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/supportText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#525f6f"
+            android:text="Please SignIn/ SignUp Your Account"
+            android:layout_below="@+id/welcomeText"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:layout_marginRight="25dip"
+        android:layout_marginLeft="25dip"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+
+        <EditText
+            android:id="@+id/countryCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/countryCode"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#98a4b3"
+            android:textColor="#242424"
+            android:digits="+0123456789"
+            android:drawablePadding="10dp"
+            android:hint="India(+91)"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/editTextMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/countryCode"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dip"
+            android:singleLine="true"
+            android:digits="+0123456789"
+            android:textColorHint="#98a4b3"
+            android:textColor="#242424"
+            android:drawablePadding="10dp"
+            android:hint="Your Phone Number"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/container"
+        android:layout_marginRight="25dip"
+        android:layout_marginLeft="25dip">
+
+
+
+        <TextView
+            android:id="@+id/sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We will send you a OTP via SMS Message"
+            android:layout_marginTop="15dip"
+            android:textColor="#525f6f"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/carrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrier charges may apply"
+            android:layout_marginTop="5dip"
+            android:textColor="#525f6f"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/sms"/>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/loginLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/carrier"
+            android:layout_marginTop="15dp"
+            android:padding="10dip"
+            android:background="@mipmap/redbutton">
+
+            <ImageButton
+                android:id="@+id/btnLanguage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/right_arrow" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

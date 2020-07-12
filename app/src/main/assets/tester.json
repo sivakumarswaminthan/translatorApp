@@ -1,0 +1,757 @@
+[{
+	"1": [{
+		"id": 95,
+		"name": "Hippo City Sightseeing Bus",
+		"product_atts": {
+			"id": 95,
+			"price": "39.0000",
+			"sku": "ATT004",
+			"shortname": "Hippo Bus",
+			"time_to_spend": "240 minutes",
+			"operating_hours": "9AM - 7PM",
+			"location_name": "Suntec ",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "Yes",
+			"latitude": "1.294268",
+			"longitude": "103.857291"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": null,
+		"rec_starting_time": "09:00:00",
+		"rec_closing_time": "13:00:00",
+		"time_to_spend": "240 minutes",
+		"stage": "Stage1"
+	}, {
+		"name": "lunch",
+		"time_to_spend": "60minutes",
+		"rec_starting_time": "13:00:00",
+		"rec_closing_time": "14:00:00",
+		"stage": "L Stage 1"
+	}, {
+		"id": 95,
+		"name": "Hippo City Sightseeing Bus",
+		"product_atts": {
+			"id": 95,
+			"price": "39.0000",
+			"sku": "ATT004",
+			"shortname": "Hippo Bus",
+			"time_to_spend": "120 minutes",
+			"operating_hours": "9AM - 7PM",
+			"location_name": "Suntec ",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "Yes",
+			"latitude": "1.294268",
+			"longitude": "103.857291"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": null,
+		"rec_starting_time": "14:00:00",
+		"rec_closing_time": "16:00:00",
+		"time_to_spend": "120 minutes",
+		"stage": "Stage1 Post Lunch"
+	}, {
+		"name": "coffee",
+		"time_to_spend": "35minutes",
+		"rec_starting_time": "16:00:00",
+		"rec_closing_time": "16:35:00"
+	}, {
+		"id": 76,
+		"name": "OCBC Skywalk",
+		"product_atts": {
+			"id": 76,
+			"price": "8.0000",
+			"sku": "ATT002",
+			"shortname": "Skywalk",
+			"time_to_spend": "30 minutes",
+			"operating_hours": "9AM - 9PM",
+			"location_name": "Marina Bay",
+			"morning_ok": "No",
+			"afternoon_ok": "No",
+			"evening_ok": "Yes",
+			"latitude": "1.282244",
+			"longitude": "103.863388"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 9,
+			"actualWeight": 9
+		}, {
+			"attraction": 8,
+			"traveltype_weight": 9,
+			"actualWeight": 17
+		}],
+		"rec_starting_time": "16:35:00",
+		"distance": 1.5,
+		"rec_closing_time": "17:05:00",
+		"time_to_spend": "30 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 99,
+		"name": "Garden Rhapsody",
+		"product_atts": {
+			"id": 99,
+			"price": "0.0000",
+			"sku": "FREE003",
+			"shortname": "Garden Rhapsody",
+			"time_to_spend": "30 minutes",
+			"operating_hours": "745PM, 845PM",
+			"location_name": "Gardens by the Bay",
+			"morning_ok": "No",
+			"afternoon_ok": "No",
+			"evening_ok": "Yes",
+			"latitude": "1.282008",
+			"longitude": "103.863892"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": 1.55,
+		"rec_starting_time": "17:05:00",
+		"rec_closing_time": "17:35:00",
+		"time_to_spend": "30 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 77,
+		"name": "Gardens By The Bay",
+		"product_atts": {
+			"id": 77,
+			"price": "28.0000",
+			"sku": "ATT001",
+			"shortname": "Gardens by the bay",
+			"time_to_spend": "150 minutes",
+			"operating_hours": "9AM - 9PM",
+			"location_name": "Marina Bay ",
+			"morning_ok": "No",
+			"afternoon_ok": "No",
+			"evening_ok": "Yes",
+			"latitude": "1.284325",
+			"longitude": "103.865523"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": 1.44,
+		"rec_starting_time": "17:35:00",
+		"rec_closing_time": "20:05:00",
+		"time_to_spend": "150 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 79,
+		"name": "Sands Skypark Observation Deck",
+		"product_atts": {
+			"id": 79,
+			"price": "23.0000",
+			"sku": "ATT005",
+			"shortname": "Skypark",
+			"time_to_spend": "60 minutes",
+			"operating_hours": "9AM - 7PM",
+			"location_name": "Marina Bay ",
+			"morning_ok": "No",
+			"afternoon_ok": "No",
+			"evening_ok": "Yes",
+			"latitude": "1.283905",
+			"longitude": "103.859089"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": 1.17,
+		"rec_starting_time": "20:05:00",
+		"rec_closing_time": "21:05:00",
+		"time_to_spend": "60 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 98,
+		"name": "The Helix Bridge",
+		"product_atts": {
+			"id": 98,
+			"price": "0.0000",
+			"sku": "FREE002",
+			"shortname": "Helix Bridge",
+			"time_to_spend": "30 minutes",
+			"operating_hours": "24hours",
+			"location_name": "Bayfront Avenue",
+			"morning_ok": "No",
+			"afternoon_ok": "No",
+			"evening_ok": "Yes",
+			"latitude": "1.287769",
+			"longitude": "103.860565"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 5,
+			"actualWeight": 5
+		}, {
+			"attraction": 7,
+			"traveltype_weight": 5,
+			"actualWeight": 12
+		}],
+		"distance": 0.81,
+		"rec_starting_time": "21:05:00",
+		"rec_closing_time": "21:35:00",
+		"time_to_spend": "30 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"name": "dinner",
+		"time_to_spend": "30 minutes",
+		"rec_starting_time": "21:35:00",
+		"rec_closing_time": "22:05:00",
+		"stage": "dinner"
+	}],
+	"2": [{
+		"id": 135,
+		"name": "Haji Lane",
+		"product_atts": {
+			"id": 135,
+			"price": "0.0000",
+			"sku": "FREE036",
+			"shortname": "Haji Lane",
+			"time_to_spend": "90 minutes",
+			"operating_hours": "24hours",
+			"location_name": "Arab Street",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "Yes",
+			"latitude": "1.300869",
+			"longitude": "103.859009"
+		},
+		"attributes": [{
+			"adventure": 6,
+			"traveltype_weight": 10,
+			"actualWeight": 16
+		}, {
+			"attraction": 9,
+			"traveltype_weight": 10,
+			"actualWeight": 19
+		}],
+		"distance": 0.76,
+		"rec_starting_time": "00:05:00",
+		"rec_closing_time": "01:35:00",
+		"time_to_spend": "90 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 89,
+		"name": "Singapore Cable Car",
+		"product_atts": {
+			"id": 89,
+			"price": "37.0000",
+			"sku": "ATT015",
+			"shortname": "Cable Car",
+			"time_to_spend": "120 minutes",
+			"operating_hours": "845AM - 930PM",
+			"location_name": "Sentosa",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "Yes",
+			"latitude": "1.264958",
+			"longitude": "103.818516"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 7,
+			"actualWeight": 7
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 7,
+			"actualWeight": 17
+		}],
+		"distance": 5.4,
+		"rec_starting_time": "01:35:00",
+		"rec_closing_time": "02:35:00",
+		"time_to_spend": "120 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 83,
+		"name": "SEA Aquarium",
+		"product_atts": {
+			"id": 83,
+			"price": "39.0000",
+			"sku": "ATT009",
+			"shortname": "SEA Aquarium",
+			"time_to_spend": "180 minutes",
+			"operating_hours": "10AM - 7PM",
+			"location_name": "Sentosa",
+			"morning_ok": "No",
+			"afternoon_ok": "Yes",
+			"evening_ok": "No",
+			"latitude": "1.258541",
+			"longitude": "103.820470"
+		},
+		"attributes": [{
+			"adventure": 5,
+			"traveltype_weight": 10,
+			"actualWeight": 15
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": 5.7,
+		"rec_starting_time": "02:35:00",
+		"rec_closing_time": "05:35:00",
+		"time_to_spend": "180 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 93,
+		"name": "Luge and Skyride ",
+		"product_atts": {
+			"id": 93,
+			"price": "23.5000",
+			"sku": "ATT019",
+			"shortname": "Luge",
+			"time_to_spend": "60 minutes",
+			"operating_hours": "10AM - 930PM",
+			"location_name": "Sentosa",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "Yes",
+			"latitude": "1.255030",
+			"longitude": "103.817389"
+		},
+		"attributes": [{
+			"adventure": 7,
+			"traveltype_weight": 9,
+			"actualWeight": 16
+		}, {
+			"attraction": 0,
+			"traveltype_weight": 9,
+			"actualWeight": 9
+		}],
+		"distance": 6.22,
+		"rec_starting_time": "05:35:00",
+		"rec_closing_time": "06:35:00",
+		"time_to_spend": "60 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 92,
+		"name": "IFly Singapore ",
+		"product_atts": {
+			"id": 92,
+			"price": "119.0000",
+			"sku": "ATT018",
+			"shortname": "iFly",
+			"time_to_spend": "120 minutes",
+			"operating_hours": "10AM - 930PM",
+			"location_name": "Sentosa",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "Yes",
+			"latitude": "1.252125",
+			"longitude": "103.817570"
+		},
+		"attributes": [{
+			"adventure": 9,
+			"traveltype_weight": 8,
+			"actualWeight": 17
+		}, {
+			"attraction": 0,
+			"traveltype_weight": 8,
+			"actualWeight": 8
+		}],
+		"distance": 6.44,
+		"rec_starting_time": "06:35:00",
+		"rec_closing_time": "08:35:00",
+		"time_to_spend": "120 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 88,
+		"name": "River Safari",
+		"product_atts": {
+			"id": 88,
+			"price": "37.0000",
+			"sku": "ATT014",
+			"shortname": "River Safari",
+			"time_to_spend": "120 minutes",
+			"operating_hours": "10AM - 7PM",
+			"location_name": "Mandai",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "No",
+			"latitude": "1.402928",
+			"longitude": "103.791725"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 8,
+			"actualWeight": 8
+		}, {
+			"attraction": 7,
+			"traveltype_weight": 8,
+			"actualWeight": 15
+		}],
+		"distance": 14.11,
+		"rec_starting_time": "08:35:00",
+		"rec_closing_time": "10:35:00",
+		"time_to_spend": "120 minutes",
+		"stage": "Stage2 Els\/e"
+	},	{
+		"id": 78,
+		"name": "Original Duck Tours",
+		"product_atts": {
+			"id": 78,
+			"price": "43.0000",
+			"sku": "ATT003",
+			"shortname": "Duck Tours",
+			"time_to_spend": "90 minutes",
+			"operating_hours": "10AM - 6PM",
+			"location_name": "Esplanade",
+			"morning_ok": "No",
+			"afternoon_ok": "Yes",
+			"evening_ok": "No",
+			"latitude": "1.294128",
+			"longitude": "103.857020"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": 0.03,
+		"rec_starting_time": "14:00:00",
+		"rec_closing_time": "15:30:00",
+		"time_to_spend": "90 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 140,
+		"name": "Test12",
+		"product_atts": {
+			"id": 140,
+			"price": "39.0000",
+			"sku": "test12",
+			"shortname": "Test12",
+			"time_to_spend": "120 minutes",
+			"operating_hours": "9PM-3AM",
+			"location_name": "Suntec ",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "Yes",
+			"latitude": "1.294268",
+			"longitude": "103.857291"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": 0,
+		"rec_starting_time": "15:30:00",
+		"rec_closing_time": "17:30:00",
+		"time_to_spend": "120 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"name": "coffee",
+		"time_to_spend": "35minutes",
+		"rec_starting_time": "17:30:00",
+		"rec_closing_time": "18:05:00"
+	}, {
+		"id": 141,
+		"name": "Test13",
+		"product_atts": {
+			"id": 141,
+			"price": "39.0000",
+			"sku": "test13",
+			"shortname": "Test13",
+			"time_to_spend": "120 minutes",
+			"operating_hours": "6AM-4PM",
+			"location_name": "Suntec ",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "Yes",
+			"latitude": "1.294268",
+			"longitude": "103.857291"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": 0,
+		"rec_starting_time": "18:05:00",
+		"rec_closing_time": "20:05:00",
+		"time_to_spend": "120 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 142,
+		"name": "Test14",
+		"product_atts": {
+			"id": 142,
+			"price": "39.0000",
+			"sku": "test14",
+			"shortname": "Test14",
+			"time_to_spend": "120 minutes",
+			"operating_hours": "6AM-4PM",
+			"location_name": "Suntec ",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "Yes",
+			"latitude": "1.294268",
+			"longitude": "103.857291"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 10,
+			"actualWeight": 20
+		}],
+		"distance": 0,
+		"rec_starting_time": "20:05:00",
+		"rec_closing_time": "22:05:00",
+		"time_to_spend": "120 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 101,
+		"name": "Singapore City Gallery",
+		"product_atts": {
+			"id": 101,
+			"price": "0.0000",
+			"sku": "FREE005",
+			"shortname": "City Gallery",
+			"time_to_spend": "60 minutes",
+			"operating_hours": "9AM - 5PM",
+			"location_name": "Maxwell Road",
+			"morning_ok": "Yes",
+			"afternoon_ok": "Yes",
+			"evening_ok": "No",
+			"latitude": "1.279606",
+			"longitude": "103.845375"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 8,
+			"actualWeight": 8
+		}, {
+			"attraction": 5,
+			"traveltype_weight": 8,
+			"actualWeight": 13
+		}],
+		"distance": 2.1,
+		"rec_starting_time": "22:05:00",
+		"rec_closing_time": "23:05:00",
+		"time_to_spend": "60 minutes",
+		"stage": "Stage2 Els\/e"
+	}],
+	"3": [{
+		"id": 81,
+		"name": "Universal Studios Singapore",
+		"product_atts": {
+			"id": 81,
+			"price": "76.0000",
+			"sku": "ATT007",
+			"shortname": "Universal Studios",
+			"time_to_spend": "240 minutes",
+			"operating_hours": "9AM - 7PM",
+			"location_name": "Sentosa",
+			"morning_ok": "Yes",
+			"afternoon_ok": "No",
+			"evening_ok": "No",
+			"latitude": "1.254275",
+			"longitude": "103.823774"
+		},
+		"attributes": [{
+			"adventure": 7,
+			"traveltype_weight": 8,
+			"actualWeight": 15
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 8,
+			"actualWeight": 18
+		}],
+		"distance": null,
+		"rec_starting_time": "09:00:00",
+		"rec_closing_time": "13:00:00",
+		"time_to_spend": "240 minutes",
+		"stage": "Stage1"
+	}, {
+		"name": "lunch",
+		"time_to_spend": "60minutes",
+		"rec_starting_time": "13:00:00",
+		"rec_closing_time": "14:00:00",
+		"stage": "L Stage 1"
+	}, {
+		"id": 81,
+		"name": "Universal Studios Singapore",
+		"product_atts": {
+			"id": 81,
+			"price": "76.0000",
+			"sku": "ATT007",
+			"shortname": "Universal Studios",
+			"time_to_spend": "60 minutes",
+			"operating_hours": "9AM - 7PM",
+			"location_name": "Sentosa",
+			"morning_ok": "Yes",
+			"afternoon_ok": "No",
+			"evening_ok": "No",
+			"latitude": "1.254275",
+			"longitude": "103.823774"
+		},
+		"attributes": [{
+			"adventure": 7,
+			"traveltype_weight": 8,
+			"actualWeight": 15
+		}, {
+			"attraction": 10,
+			"traveltype_weight": 8,
+			"actualWeight": 18
+		}],
+		"distance": null,
+		"rec_starting_time": "14:00:00",
+		"rec_closing_time": "15:00:00",
+		"time_to_spend": "60 minutes",
+		"stage": "Stage1 Post Lunch"
+	}, {
+		"id": 80,
+		"name": "Singapore River Cruise",
+		"product_atts": {
+			"id": 80,
+			"price": "25.0000",
+			"sku": "ATT006",
+			"shortname": "River Cruise",
+			"time_to_spend": "60 minutes",
+			"operating_hours": "9AM - 10PM",
+			"location_name": "Clark Quey",
+			"morning_ok": "No",
+			"afternoon_ok": "No",
+			"evening_ok": "Yes",
+			"latitude": "1.289145",
+			"longitude": "103.844617"
+		},
+		"attributes": [{
+			"adventure": 0,
+			"traveltype_weight": 10,
+			"actualWeight": 10
+		}, {
+			"attraction": 9,
+			"traveltype_weight": 10,
+			"actualWeight": 19
+		}],
+		"distance": 4.52,
+		"rec_starting_time": "15:00:00",
+		"rec_closing_time": "16:00:00",
+		"time_to_spend": "60 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"name": "coffee",
+		"time_to_spend": "35minutes",
+		"rec_starting_time": "16:00:00",
+		"rec_closing_time": "16:35:00"
+	}, {
+		"id": 97,
+		"name": "The Southern Ridges",
+		"product_atts": {
+			"id": 97,
+			"price": "0.0000",
+			"sku": "FREE001",
+			"shortname": "Southern Ridge",
+			"time_to_spend": "150 minutes",
+			"operating_hours": "24hours",
+			"location_name": "Henderson Rd, Mt Faber Park , 099203",
+			"morning_ok": "Yes",
+			"afternoon_ok": "No",
+			"evening_ok": "Yes",
+			"latitude": "1.280220",
+			"longitude": "103.802984"
+		},
+		"attributes": [{
+			"adventure": 4,
+			"traveltype_weight": 8,
+			"actualWeight": 12
+		}, {
+			"attraction": 7,
+			"traveltype_weight": 8,
+			"actualWeight": 15
+		}],
+		"distance": 3.7,
+		"rec_starting_time": "16:35:00",
+		"rec_closing_time": "19:05:00",
+		"time_to_spend": "150 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"id": 86,
+		"name": "Night Safari",
+		"product_atts": {
+			"id": 86,
+			"price": "47.0000",
+			"sku": "ATT012",
+			"shortname": "Night Safari",
+			"time_to_spend": "120 minutes",
+			"operating_hours": "715PM - 12AM",
+			"location_name": "Mandai",
+			"morning_ok": "No",
+			"afternoon_ok": "No",
+			"evening_ok": "Yes",
+			"latitude": "1.402219",
+			"longitude": "103.788050"
+		},
+		"attributes": [{
+			"adventure": 5,
+			"traveltype_weight": 9,
+			"actualWeight": 14
+		}, {
+			"attraction": 8,
+			"traveltype_weight": 9,
+			"actualWeight": 17
+		}],
+		"distance": 16.92,
+		"rec_starting_time": "19:05:00",
+		"rec_closing_time": "21:05:00",
+		"time_to_spend": "120 minutes",
+		"stage": "Stage2 Els\/e"
+	}, {
+		"name": "dinner",
+		"time_to_spend": "30 minutes",
+		"rec_starting_time": "21:05:00",
+		"rec_closing_time": "21:35:00",
+		"stage": "dinner"
+	}]
+}]

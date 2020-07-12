@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoImage"
+        android:src="@mipmap/splash"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dip"/>
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip">
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hey Wanderlust!"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:textColor="#242424"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/supportText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#525f6f"
+            android:layout_marginTop="10dip"
+            android:layout_centerHorizontal="true"
+            android:text="Login / SignUp "
+            android:layout_below="@+id/welcomeText"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/googleContainer"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="25dip"
+        android:background="@drawable/curved_white_background_full"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/sign_in_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dip"
+                android:paddingBottom="10dip"
+                android:paddingLeft="15dip"
+                android:paddingRight="5dip"
+                android:paddingTop="10dip"
+                android:text="Enter with" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/sign_in_text"
+                android:layout_marginRight="15dip"
+                android:layout_marginLeft="5dip"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/google_icon" />
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_in_button_google"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/otpContainer"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/googleContainer"
+        android:layout_marginRight="25dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="25dip"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/curved_white_background_full"
+        android:padding="5dp">
+
+
+
+        <TextView
+            android:id="@+id/otpText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login via OTP"
+            android:padding="10dip"
+            android:gravity="center"
+            android:textColor="#525f6f"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/facebookContainer"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otpContainer"
+        android:layout_marginRight="25dip"
+        android:layout_marginTop="20dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dip"
+        android:background="@drawable/curved_white_background_full"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/buttonFacebookLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect with Facebook"
+            android:visibility="gone"
+            android:padding="15dip"/>
+
+
+        <TextView
+            android:id="@+id/facebookText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login via Facebook"
+            android:padding="10dip"
+            android:textColor="#525f6f"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

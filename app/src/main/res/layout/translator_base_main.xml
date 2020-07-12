@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.truediplomat.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topLayout"
+        android:paddingTop="15dip"
+        android:background="@layout/gradient"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/interiorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/settingsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/settings"
+                android:layout_marginRight="15dip"
+                android:padding="15dip"
+                android:layout_alignParentRight="true"/>
+
+            <ImageView
+                android:id="@+id/textFlavor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/walks_topbar"
+                android:layout_marginLeft="15dip"
+                android:padding="15dip"
+                android:layout_alignParentLeft="true"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+        <com.ogaclejapan.smarttablayout.SmartTabLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/viewpagertab"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/interiorLayout"
+            android:clipToPadding="false"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:stl_defaultTabTextAllCaps="false"
+            app:stl_defaultTabTextColor="@color/text_grey"
+            app:stl_customTabTextLayoutId="@layout/layout"
+            app:stl_defaultTabTextHorizontalPadding="18dp"
+            app:stl_dividerColor="@color/transparent"
+            app:stl_dividerThickness="0dp"
+            app:stl_indicatorColor="#1f242424"
+            app:stl_indicatorCornerRadius="10dp"
+            app:stl_indicatorGravity="center"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorThickness="36dp"
+            app:stl_underlineColor="@color/transparent"
+            app:stl_underlineThickness="0dp" />
+
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_progressBar"
+        />
+
+    <ProgressBar
+        android:id="@+id/my_progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-7dip"
+        android:visibility="gone"
+        android:layout_below="@+id/topLayout"
+        android:indeterminate="true"/>
+
+</RelativeLayout>

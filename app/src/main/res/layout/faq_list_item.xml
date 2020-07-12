@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="95dip"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginBottom="5dip"
+        android:layout_below="@+id/cardLayout1"
+        android:elevation="10dp" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/rightPane"
+            android:layout_marginRight="10dip"
+            android:layout_marginLeft="30dip"
+            >
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textColor="@color/major_text_grey" />
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/text"
+            android:text="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+            android:textColor="@color/major_text_grey" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rightPane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dip"
+            >
+
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/major_text_grey" />
+
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_below="@+id/date"
+                android:layout_centerHorizontal="true"
+                android:text="Login"
+                android:textColor="@color/major_text_grey" />
+
+
+            <ImageView
+                android:id="@+id/deleteConversation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/trash_black"
+                android:padding="10dip"
+                android:layout_below="@+id/time"/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
